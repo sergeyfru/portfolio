@@ -7,6 +7,7 @@ import Nav from "./components/Nav";
 import Contacts from "./components/Contacts";
 import Projects from "./components/projects/Projects";
 import './styles/style.css'
+import Home from "./components/Home.jsx";
 
 const Root = () => {
   return (
@@ -29,14 +30,14 @@ const router = createBrowserRouter([
     children: [
       {
         path: '/',
-        element: <ErrorBoundary> <h2>Home page</h2> </ErrorBoundary>
+        element: <ErrorBoundary> <Home/> </ErrorBoundary>
       },
       {
         path: '/contacts',
         element: <ErrorBoundary> <Contacts /> </ErrorBoundary>
       },
       {
-        path: '/Projects',
+        path: '/projects',
         element: <ErrorBoundary> <Projects /> </ErrorBoundary>
       },
       
