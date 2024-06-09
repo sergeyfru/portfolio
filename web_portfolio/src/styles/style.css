@@ -148,8 +148,8 @@ footer {
 
 .footer_links a {
     color: #333;
-    font-size: 1.5rem;
-    margin: 0 10px;
+    font-size: 2rem;
+    margin: 0 15px;
     transition: color 0.3s ease-in-out;
 }
 
@@ -182,4 +182,26 @@ footer {
 .skills img {
     width: 100px; /* Adjust the width as needed */
     height: auto;
+}
+
+/* Portfolio.css */
+
+/* Styles for Contacts component */
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    font-size: 1.2rem;
+    color: #333;
+}
+
+.contact-item svg {
+    margin-right: 10px;
 }

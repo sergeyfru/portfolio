@@ -18,10 +18,10 @@ const Footer = () => {
             <button onClick={scrollToTop}><FontAwesomeIcon icon={faAnglesUp} /></button>
             <div className="footer_links">
                 <a href="https://www.linkedin.com/in/sergeyfru/" target="_blank" rel="noopener noreferrer">
-                    <FontAwesomeIcon icon={faLinkedin} />
+                    <FontAwesomeIcon icon={faLinkedin}  style={{color: "#3596fd",}}/>
                 </a>
                 <a href="https://www.facebook.com/sn.fruman" target="_blank" rel="noopener noreferrer">
-                    <FontAwesomeIcon icon={faFacebook} />
+                    <FontAwesomeIcon icon={faFacebook} style={{color: "#2d33eb",}}/>
                 </a>
                 <a href="https://github.com/sergeyfru" target="_blank" rel="noopener noreferrer">
                     <FontAwesomeIcon icon={faGithub} />
