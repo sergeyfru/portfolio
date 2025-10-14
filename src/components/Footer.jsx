@@ -4,7 +4,7 @@ import { faLinkedin, faGithub, faFacebook } from '@fortawesome/free-brands-svg-i
 
 
 const Footer = () => {
-
+    let year = new Date().getFullYear();
     const scrollToTop = () => {
         window.scrollTo({
             top: 0,
@@ -25,11 +25,11 @@ const Footer = () => {
                 </a>
                 <a href="https://github.com/sergeyfru" target="_blank" rel="noopener noreferrer">
                     <FontAwesomeIcon icon={faGithub} />
-                </a>
+                </a> 
             </div>
             <div className="info-box">
-                <div className="footnote">
-                    SERGEY FRUMAN &copy; 2024
+               <div className="footnote">
+                    SERGEY FRUMAN &copy; {year}
                 </div>
             </div>
         </footer>

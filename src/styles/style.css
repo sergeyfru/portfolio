@@ -1,13 +1,38 @@
-/* Portfolio.css */
-
 /* Global styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
+#root {
+  width: 100%;
+  margin: 0 auto;
+  /* padding: 2rem; */
+  text-align: center;
+  position: relative;
+}
 body {
     font-family: Arial, sans-serif;
     margin: 0;
-    padding: 0;
+    padding: 0 ;
     box-sizing: border-box;
-    background: linear-gradient(to right, #ffeb3b, #8bc34a); /* Yellow to green gradient */
+    background: linear-gradient(to right, #ffeb3b, #8bc34a); 
     color: #333;
+
+}
+
+
+h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 40px;
 }
 
 .main {
@@ -16,18 +41,8 @@ body {
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     max-width: 1200px;
-    margin: 20px auto;
-}
+    margin: 5px auto;
 
-h1, h2, h3 {
-    margin: 0;
-}
-
-h1 {
-    text-align: center;
-    font-size: 2.5rem;
-    color: #333;
-    margin-bottom: 40px;
 }
 
 .projects-box {
@@ -45,6 +60,9 @@ h1 {
     padding: 20px;
     width: 300px;
     transition: transform 0.2s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     }
     .project li{
         text-align: start;
@@ -65,8 +83,6 @@ h1 {
 }
 
 .project h3 {
-    font-size: 1rem;
-    color: #666;
     margin-bottom: 20px;
 }
 
@@ -85,7 +101,7 @@ h1 {
 }
 
 .project-links a:hover {
-    color: #8bc34a; /* Green color on hover */
+    color: #8bc34a; 
 }
 
 /* Specific color adjustments for links */
@@ -96,9 +112,20 @@ h1 {
 .project-links a.video:hover {
     color: #8bc34a; /* Green color on hover for video links */
 }
+
+.tech-stack{
+    font-weight: bold;
+    color: #000000;
+}
 /* Nav.css */
 
 /* Navigation styles */
+header {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
 nav {
     display: flex;
     justify-content: center;
@@ -106,8 +133,6 @@ nav {
     background-color: #f8ffae; /* Light yellow background for navigation */
     padding: 15px 30px;
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
-    position: sticky;
-    top: 0;
     z-index: 1000;
 }
 
@@ -122,8 +147,10 @@ nav a {
 }
 
 nav a:hover {
-    color: #fff;
-    background-color: #8bc34a; /* Green background on hover */
+    color: #000000;
+    background-color: #c0cd31;
+  /* background: radial-gradient(ellipse at center, #cfd302 10%, #f3faa3 80%, #f8ffae 100%); */
+  /* box-shadow: 0 0 15px rgba(0, 123, 255, 0.4); */
 }
 
 /* Active link styles */
@@ -187,6 +214,9 @@ footer {
 /* Portfolio.css */
 
 /* Styles for Contacts component */
+#contacts .main {
+    height: 170px;
+}
 .contact-info {
     display: flex;
     flex-direction: column;
