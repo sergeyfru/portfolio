@@ -1,15 +1,8 @@
-import React from "react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faArrowUpRightFromSquare,
   faVideo,
 } from "@fortawesome/free-solid-svg-icons";
-import { faGithub } from "@fortawesome/free-brands-svg-icons";
-import BoardBuddy from "./projects/BoardBuddy";
-import VolunteersFiender from "./projects/VolunteersFiender";
-import MediTrack from "./projects/MediTrack.jsx";
 import ProjectItem from "./ProjectItem.jsx";
-// import './Projects.css'; // Adjust the path based on your file structure
 
 const Projects = () => {
   return (
