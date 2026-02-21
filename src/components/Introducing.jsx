@@ -9,17 +9,20 @@ import python from '../assets/python.svg'
 import react from '../assets/react.svg'
 import sql from '../assets/sql.svg'
 import ts from '../assets/ts.svg'
+// import CV from "/public/CV_Sergey_Fruman.pdf"
 const Introducing = () => {
     return (
    <div id='introducing' className="main">
                <h1>Welcome! My name is Sergey Fruman.</h1>
                <h2>I'm a Full-Stack Developer</h2>
-               <div>
-                   <h3>About:</h3>
+<a href="/Fruman_CV_Full-Stack.pdf" target="_blank" className='cv-button'>
+  📄 Download CV (PDF)
+</a>               <div>
+                   <h3>About me:</h3>
                    <p>I am a highly motivated full-stack developer with a background in medicine and with proven experience in Python, JavaScript, Node.js, React, and TypeScript. I have worked on various projects across the development lifecycle, from front-end design to back-end integration. My passion for building innovative solutions and my dedication to contributing to high-performing teams make me a valuable asset to any project. I am eager to apply my skills and knowledge to web development and continue my professional growth in this field.</p>
                </div>
                <div>
-                   <h3>Skills:</h3>
+                   <h3>My skills:</h3>
                    <div className="skills" >
                        <img src={css} alt="CSS" />
                        <img src={html} alt="HTML" />

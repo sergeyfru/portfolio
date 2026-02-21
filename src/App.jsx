@@ -1,11 +1,10 @@
+// import './styles/style.css'
 
 import { createBrowserRouter, RouterProvider, Outlet, Routes, Route, NavLink } from "react-router-dom";
-// import './App.css'
 import ErrorBoundary from "./components/ErrorBundary";
 import Footer from "./components/Footer";
 import Contacts from "./components/Contacts";
 import Projects from "./components/Projects.jsx";
-import './styles/style.css'
 import Home from "./components/Home.jsx";
 import Header from "./components/Header.jsx";
 
